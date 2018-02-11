@@ -26,7 +26,7 @@ echo $JAVA_HOME
 # step 1 : creating key
 ssh-keygen -t rsa -b 4096 -C <your Email>
 
-# step 2 : start agent
+# step 2 : start Agent
 eval "$(ssh-agent -s)"
 
 # # step 3 : coppy the key to .ssh
