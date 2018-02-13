@@ -55,7 +55,7 @@ vim apache-tomcat-8.0.49/conf/server.xml
 # change to 8090 - <Connector port="8090" protocol="HTTP/1.1"
 
 # add x permission to all file on bin directory
-cd bin/
+cd apache-tomcat-8.0.49/bin
 sudo chmod +x *
 ./startup.sh
 
